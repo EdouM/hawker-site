@@ -18,7 +18,7 @@ body {
 @media (max-width: 670px){
     body{
         background-image: url(/img/Intro-HawkerNBmobile.jpg);
-        background-position: center center;
+        background-size: 100%;
     }
 }
 
