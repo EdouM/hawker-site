@@ -706,3 +706,9 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
+.video-section .row{  
+    width: 70%;
+    margin : auto;
+
+}
