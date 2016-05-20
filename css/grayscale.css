@@ -14,12 +14,40 @@ body {
     background-attachment: fixed;
     background-position: center center;
 }
+/*iphone 6*/
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2){
+    .intro{
+        background: url(/img/Intro-HawkerNBmobile.jpg) no-repeat;
+    }
+}
+/*iphone 6+*/
+@media only screen 
+    and (min-device-width: 414px)
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3){
+    .intro{
+        background: url(/img/Intro-HawkerNBmobile.jpg) no-repeat;
+    }
+}
+/*iphone 5*/
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 568px) 
+    and (-webkit-min-device-pixel-ratio: 2){
+    .intro{
+        background: url(/img/Intro-HawkerNBmobile.jpg) no-repeat;
+    }
+}
 
-@media (max-width: 670px){
-    body{
-        background-image: url(/img/Intro-HawkerNBmobile.jpg);
-        background-size: 100% no-repeat;
-        background-attachment: fixed;
+/*ipad*/
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .intro{
+        background: url(/img/Intro-HawkerNBmobile.jpg)  no-repeat;
     }
 }
 
@@ -293,10 +321,6 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 25px;
-}
-
 .presentation-section {
     width: 100%;
     padding: 5px 0;
@@ -340,21 +364,6 @@ a:focus {
     width: 100%;
     height: 200px;
     margin-top: 100px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 80px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 80px;
-    }
 }
 
 .btn {
@@ -447,7 +456,7 @@ body {
 }
 @media screen and (max-width: 481px) {
     .block-title {
-        font-size: 32px
+        font-size: 28px
     }
 }
 
