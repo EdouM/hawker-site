@@ -15,12 +15,12 @@ body {
     background-position: center center;
 }
 
-/*@media (max-width: 667px){
+@media (max-width: 670px){
     body{
         background-image: url(/img/Intro-HawkerNBmobile.jpg);
         background-position: center center;
     }
-}*/
+}
 
 html {
     width: 100%;
